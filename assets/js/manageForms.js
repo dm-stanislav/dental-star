@@ -1,0 +1,1 @@
+const manageForms=e=>{if(e.ok&&"register_form"===e.formElement.id){const t=document.getElementById("register_toast");Toast.getOrCreateInstance(t).show();const o=e.formElement.closest(".modal");Modal.getOrCreateInstance(o).hide()}return!1};
